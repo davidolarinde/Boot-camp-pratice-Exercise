@@ -42,7 +42,7 @@
        }
 
        
-        .input-box {
+        .input-item {
             font-size: 18px;
             padding-bottom: 12px;
             margin-bottom: 36px;
@@ -63,6 +63,17 @@
            cursor: pointer;
         
         }
+        
+        #btn-submit:hover {
+            background-color: rgba (0, 0, 255, 1);
+        }
+        .input-item:focus {
+            background-color:lightblue
+        }
+        .input-item:focus:required {
+            background-color: rgba(255, 0,0, 0.2);
+        }
+
     </style>
 </head>
 <body>
@@ -80,19 +91,19 @@
       </div>  
       <div id="input-wrapper">
 <div>
-    <input class ="input-box" type="text" name="username"
+    <input class ="input-item" type="text" name="username" required
     placeholder="username">
 </div>
 <div>
-    <input class ="input-box" type="email" name="email"
+    <input class ="input-item" type="email" name="email"
     placeholder="Email">
 </div>
 <div>
-    <input class ="input-box" type="password" name="Password"
+    <input class ="input-item" type="password" name="Password"
     placeholder="Password">
 </div>
 <div>
-    <input class ="input-box" type="password" name="confirm password"
+    <input id ="input-item" type="password" name="confirm password"
     placeholder="confirm password">
 </div>
       </div>

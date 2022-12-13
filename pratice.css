@@ -1,0 +1,12 @@
+/*Selecting the first paragraph  of each article*/
+
+p:nth-last-of-type(2) {
+    background-color: lightcoral;
+
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+

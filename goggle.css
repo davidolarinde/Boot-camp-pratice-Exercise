@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    text-align: right;
+}
+.menu-item {
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    margin-right: 16px;
+}
+.menu-item:hover {
+    text-decoration: underline;
+} 
+.profile-pic {
+
+}
+#search-box {
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+}
